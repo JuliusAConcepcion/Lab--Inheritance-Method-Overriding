@@ -51,7 +51,7 @@ public class Main {
                 //Print Salary
                 fte.printSalary("Full-Time");
             }
-            if(choice == 2){
+            else if(choice == 2){
                 PartTimeEmployee pte = new PartTimeEmployee();
                 System.out.println("New Part-Time Employee Created!");
                 System.out.println("\nEnter Employee Information:");
